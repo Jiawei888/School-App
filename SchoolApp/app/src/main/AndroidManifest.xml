@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity_Parent"
+            android:label="@string/title_activity_main_parent"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity_Admin"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".MainActivity_Student"
+            android:label="App"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".loginActivity"></activity>
+        <activity
+            android:name=".add_student_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+        <activity
+            android:name=".select_st_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+        <activity
+            android:name=".select_pa_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+        <activity
+            android:name=".event_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+        <activity
+            android:name=".show_event_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+        <activity
+            android:name=".notice_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+        <activity
+            android:name=".show_notice_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+        <activity
+            android:name=".communication_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+        <activity
+            android:name=".show_communication_admin"
+            android:parentActivityName=".MainActivity_Admin"></activity>
+
+
+
+    </application>
+
+</manifest>

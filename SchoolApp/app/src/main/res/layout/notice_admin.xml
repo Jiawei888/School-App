@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3_notice"
+                android:layout_width="198dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Notice Board"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView6_notice_admin"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/soton"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Title"
+            />
+
+
+        <EditText
+            android:id="@+id/register_notice_admin"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textShortMessage"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView12_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            />
+
+        <EditText
+            android:id="@+id/register_notice_content_admin"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textSize="12sp" />
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginStart="180dp"
+            android:format12Hour="MMM dd, yyyy h:mm:ssaa" />
+
+        <Button
+            android:id="@+id/notice_button_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginStart="143dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginLeft="143dp"
+            android:layout_marginRight="143dp"
+            android:layout_marginBottom="80dp"
+            android:onClick="onClick"
+            android:textAllCaps="false"
+            android:text="Send"
+            />
+
+    </LinearLayout>
+</ScrollView>

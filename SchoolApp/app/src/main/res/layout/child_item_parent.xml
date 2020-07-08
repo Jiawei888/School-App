@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="0,1,2,3"
+    android:padding="3dip">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/email_table"
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            />
+
+        <TextView
+            android:id="@+id/first_name_table"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            />
+        <TextView
+            android:id="@+id/family_name_table"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            />
+        <TextView
+            android:id="@+id/class_table"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            />
+    </TableRow>
+
+
+
+</TableLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+

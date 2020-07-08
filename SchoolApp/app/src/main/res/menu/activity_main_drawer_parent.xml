@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    //home pd  ;gallery notice ; slideshow  event  ;tool setting ;share logout
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personaldata_parent"
+            android:icon="@drawable/ic_menu_personaldata"
+            android:title="Personal Data" />
+        <item
+            android:id="@+id/nav_communication_parent"
+            android:icon="@drawable/ic_menu_communication"
+            android:title="Communication" />
+        <item
+            android:id="@+id/nav_event_parent"
+            android:icon="@drawable/ic_menu_event"
+            android:title="Event" />
+        <item
+            android:id="@+id/nav_setting_parent"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_children_parent"
+            android:icon="@drawable/ic_menu_children"
+            android:title="Children" />
+        <item
+            android:id="@+id/nav_logout_parent"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

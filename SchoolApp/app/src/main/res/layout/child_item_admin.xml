@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--listView的布局-->
+
+    <TextView
+        android:id="@+id/email_table_admin"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="NULL" />
+
+
+    <TextView
+        android:id="@+id/first_name_table_admin"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+        />
+
+    <TextView
+        android:id="@+id/family_name_table_admin"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:text="NULL" />
+
+    <TextView
+        android:id="@+id/class_table_admin"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:text="NULL" />
+
+
+
+
+
+
+</LinearLayout>

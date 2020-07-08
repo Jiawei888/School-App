@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    android:orientation="vertical">
+    <!-- 点击listView之后AlertDialog布局-->
+
+    <Button
+        android:id="@+id/student_info_select"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Query Student Info" />
+
+    <Button
+        android:id="@+id/student_info_delete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Delete Student Info" />
+
+    <Button
+        android:id="@+id/student_info_update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Modify Student Info" />
+
+    <Button
+        android:id="@+id/student_info_event"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Send Event" />
+
+    <Button
+        android:id="@+id/student_info_notification"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Send Noticeboard" />
+
+
+</LinearLayout>

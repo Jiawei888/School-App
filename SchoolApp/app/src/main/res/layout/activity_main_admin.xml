@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!-- 登录后的管理员界面-->
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="10dp"
+        android:text="Administrator"
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="143dp"
+        android:layout_height="143dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="32dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:src="@drawable/soton" />
+
+    <Button
+        android:id="@+id/admin_activity_select_parent"
+        style="@style/common_button_style"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pic"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="35dp"
+        android:onClick="onClick"
+        android:text="Query Parent Info"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/admin_activity_select"
+        style="@style/common_button_style"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:onClick="onClick"
+        android:text="Query Student Info"
+        android:textAllCaps="false" />
+
+
+
+    <Button
+        android:id="@+id/admin_activity_add"
+        style="@style/common_button_style"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/admin_activity_select"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:text="Add Student Info" />
+
+
+    <Button
+        android:id="@+id/admin_activity_event"
+        style="@style/common_button_style"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/admin_activity_add"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Event"
+        android:textAllCaps="false" />
+
+    <Button
+        style="@style/common_button_style"
+        android:id="@+id/admin_activity_notification"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/admin_activity_event"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:text="Notification"/>
+
+    <Button
+        style="@style/common_button_style"
+        android:id="@+id/admin_activity_communication"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/admin_activity_notification"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:text="Communication"/>
+
+    <Button
+        android:id="@+id/logout_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Log Out"
+        android:textColor="@color/black_text" />
+
+
+</RelativeLayout>

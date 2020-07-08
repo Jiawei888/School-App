@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password change" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Old Password:" />
+
+    <EditText
+        android:id="@+id/old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter old password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="New Password:" />
+
+    <EditText
+        android:id="@+id/new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter new password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password:" />
+
+    <EditText
+        android:id="@+id/new_pwd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter new password again" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btcen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="51dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btsure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="53dp"
+            android:text="Confirm" />
+
+    </RelativeLayout></LinearLayout>
+

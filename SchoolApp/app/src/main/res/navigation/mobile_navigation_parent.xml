@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_personaldata_parent">
+
+    <fragment
+        android:id="@+id/nav_personaldata_parent"
+        android:name="com.example.schoolapp.ui_parent.personaldata_parent.personaldata_parentFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_personaldata_parent" />
+
+    <fragment
+        android:id="@+id/nav_communication_parent"
+        android:name="com.example.schoolapp.ui_parent.communication_parent.CommunicationFragment"
+        android:label="Communication"
+        tools:layout="@layout/fragment_communication_parent" />
+
+    <fragment
+        android:id="@+id/nav_event_parent"
+        android:name="com.example.schoolapp.ui_parent.event_parent.EventFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_event_parent" />
+
+    <fragment
+        android:id="@+id/nav_setting_parent"
+        android:name="com.example.schoolapp.ui_parent.setting_parent.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_setting_parent" />
+
+    <fragment
+        android:id="@+id/nav_logout_parent"
+        android:name="com.example.schoolapp.ui_parent.logout_parent.LogoutFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_logout_parent" />
+
+    <fragment
+        android:id="@+id/nav_children_parent"
+        android:name="com.example.schoolapp.ui_parent.children_parent.Children_parentFragment"
+        android:label="Children"
+        tools:layout="@layout/fragment_children_parent" />
+</navigation>

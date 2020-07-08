@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    android:orientation="vertical">
+    <!-- 点击listView之后AlertDialog布局-->
+
+    <Button
+        android:id="@+id/communication_info_select"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Query Communication" />
+
+    <Button
+        android:id="@+id/communication_info_delete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Delete Communication" />
+
+    <Button
+        android:id="@+id/communication_info_update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Update Communication" />
+
+
+</LinearLayout>

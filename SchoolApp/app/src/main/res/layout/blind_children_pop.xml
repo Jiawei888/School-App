@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blind your Children" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Your Password:" />
+
+    <EditText
+        android:id="@+id/parent_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter your password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Children ID:" />
+
+    <EditText
+        android:id="@+id/children_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter children id" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_blind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="51dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/confirm_blind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="53dp"
+            android:text="Confirm" />
+
+    </RelativeLayout></LinearLayout>
+

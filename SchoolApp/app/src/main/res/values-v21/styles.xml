@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="common_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_next_height</item>
+        <item name="android:background">@drawable/selector_red_corners_button</item>
+        <item name="android:padding">6.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+</resources>
